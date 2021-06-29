@@ -50,9 +50,12 @@
 ## Lambda İfadeleri (Lambda Expressions)
 
   
-## Kapsam Sızıntısı (Scope Leakage)
+## Kapsam ve Kapsam Sızıntısı (Scope & Scope Leakage)
++ yerel bir isim global bir ismi maskeliyor mu?
++ yerel bir isim sınıf kapsamındaki bir ismi maskeliyor mu?
 + değişken isimlerinin kapsamları gereksiz yere geniş tutulmuş mu?
-+ Kapsam daraltılması için ilk değer vermeli if deyimi _(if with initializer)_ kullanılmış mı?
++ gereken yerlerde kapsam daraltılması için ilk değer vermeli if deyimi _(if with initializer)_ kullanılmış mı?
++ gereken yerlerde "yapılandırılmış bağlama" _(structured binding)_ kullanılmış mı?
 
 ## Taşıma Semantiği (Move Semantics) 
   + Sınıfın move member'ları delete edilmiş mi?
