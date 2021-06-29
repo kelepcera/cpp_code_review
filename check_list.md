@@ -1,0 +1,6 @@
+## Başlık Dosyaları (Header Files)
+## Const Doğruluğu (Const Correctness)
+## İsimlendirme (Naming)
+## Kapsam Sızıntısı (Scope Leakage)
+## Taşıma Semantiği (Move Semantics) 
+## Kopyalamanın Eliminasyonu (Copy Elision)
