@@ -1,4 +1,6 @@
 ## Başlık Dosyaları (Header Files)
+  + gereksiz yere bir başlık dosyası include edilmiş mi?
+    + ön bildirim (forward declaration) yapmak yerine gereksiz yere başlık dosyası include edilmiş mi?
 ## Const Doğruluğu (Const Correctness)
   + salt okuma amaçlı kullanılacak değişkenler const yapılmış mı?
     + lookup table olarak kullanılan veri yapıları
