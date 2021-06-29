@@ -33,6 +33,9 @@
     + nullptr yerine tam sayı sabiti olarak 0 kullanılmış mı?
     
 ## Numaralandırmalar (enums)
++ kapsamlı enum türü _(enum class)_ yerine kapsamsız enum türü kullanılmış mı?
++ isimlendirilmemiş enum türü kullanılmış mı?
++ gereksiz yere numaralandırma sabitlerinin değerleri belirlenmiş mi?
 
 ## Fonksiyonlar
 + fonksiyon ismi iyi seçilmiş mi?
