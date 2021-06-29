@@ -18,6 +18,9 @@
   + aralık tabanlı for döngülerinde döngü değişkeni olarak kullanılan sol taraf referansları
   + const olması gereken üye fonksiyonları
 
+## constexpr
++ Derleme zamanında hesaplanacak değerler için _constexpr_ fonksiyonlar kullanılmış mı?
+
 ## Yorum satırları (Comment Lines)
 + gereksiz yorum satırı var mı?
 + güncellenmesi _(update)_ gereken yorum satırı var mı?
