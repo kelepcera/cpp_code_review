@@ -24,7 +24,7 @@
   + Türkçe isim kullanılmış mı?
   + isimlendirmede tutarlı bir konvensiyon kullanılmış mı?
   + birbirine çok yakın isimler seçilmiş mi? (x1, x2, x3)
-  + görsel olarak 0 ile karıştırılma riski olan o karakteri
+  + görsel olarak 0 ile karıştırılma riski olan o karakteri kullanılmış mı?
   + fonksiyon isimleri iyi seçilmiş mi?
 
 ## Sabitler (constants)
@@ -47,10 +47,11 @@
 ## Kapsam Sızıntısı (Scope Leakage)
 + değişken isimlerinin kapsamları gereksiz yere geniş tutulmuş mu?
 + Kapsam daraltılması için ilk değer vermeli if deyimi _(if with initializer)_ kullanılmış mı?
+
 ## Taşıma Semantiği (Move Semantics) 
   + Sınıfın move member'ları delete edilmiş mi?
 
 ## Kopyalamanın Eliminasyonu (Copy Elision)
 
-# Sınıflar (Classes)
+## Sınıflar (Classes)
 
