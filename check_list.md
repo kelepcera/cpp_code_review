@@ -43,6 +43,7 @@
 + fonksiyon parametre sayısı fazla mı?
 
 ## Lambda İfadeleri (Lambda Expressions)
+
   
 ## Kapsam Sızıntısı (Scope Leakage)
 + değişken isimlerinin kapsamları gereksiz yere geniş tutulmuş mu?
@@ -54,4 +55,13 @@
 ## Kopyalamanın Eliminasyonu (Copy Elision)
 
 ## Sınıflar (Classes)
++ Oluşturulan sınıf cohesive mi?
++ Tek sorumluluk _(Single Responsibility Principle)_ ilkesine uyulmuş mu?
+
+## Exception Handling
++ sınıfların move constructor, move assignment, swap işlevleri _noexcept_ olarak tanımlanmış mı?
+
+## Attribute'lar 
++ geri dönüş değerinin kullanılması lojik açıdan zorunlu olan fonksiyonlar için _[[nodiscard]]_ attribute'ı kullanılmış mı?
++ switch deyimlerinde gerekli yerlerde _[[fallthrough]]_ attribute'ı kullanılmış mı?
 
