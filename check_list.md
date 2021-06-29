@@ -48,6 +48,7 @@
 ## Argüman Gönderimi (Parameter Passing)
 
 ## Lambda İfadeleri (Lambda Expressions)
++ lambda ifadesinin kullanılması gereken (daha iyi olan) yerlerde global fonksiyon tanımlanmış mı?
 
   
 ## Kapsam ve Kapsam Sızıntısı (Scope & Scope Leakage)
