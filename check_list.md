@@ -85,6 +85,7 @@
 
 ## Exception Handling
 + sınıfların move constructor, move assignment, swap işlevleri _noexcept_ olarak tanımlanmış mı?
++ _cathc_ bloklarının sırası doğru mu? (özelden genele)
 
 ## Akıllı Göstericiler (Smart Pointers)
 
