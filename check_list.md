@@ -36,6 +36,7 @@
 + kapsamlı enum türü _(enum class)_ yerine kapsamsız enum türü kullanılmış mı?
 + isimlendirilmemiş enum türü kullanılmış mı?
 + gereksiz yere numaralandırma sabitlerinin değerleri belirlenmiş mi?
++ gereksiz yere baz tür _(underlying type)_ belirlenmiş mi?
 
 ## Operatörler (Operators)
 
