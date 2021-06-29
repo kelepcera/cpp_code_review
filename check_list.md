@@ -3,8 +3,8 @@
     + ön bildirim (forward declaration) yapmak yerine gereksiz yere başlık dosyası include edilmiş mi?
 ## Const Doğruluğu (Const Correctness)
   + salt okuma amaçlı kullanılacak değişkenler const yapılmış mı?
-    + lookup table olarak kullanılan veri yapıları
-    + const olması gereken referans parametreler
+    + lookup table olarak kullanılan veri yapıları const yapılmış mı?
+    + okuma amaçlı erişim sağlayan referans parametreler const yapılmış mı?
     + gösterici değişkenler
       + low level const
       + top level const
@@ -21,10 +21,19 @@
   + fonksiyon isimleri iyi seçilmiş mi?
 
 ## Sabitler (constants)
+  + nullptr
+    + nullptr yerine NULL makrosu kullanılmış mı?
+    + nullptr yerine tam sayı sabiti olarak 0 kullanılmış mı?
+    
+
 ## Fonksiyonlar
+  + fonksiyonlara birden fazla görev yüklenmiş mi?
+  + küçük birden fazla fonksiyon yerine tek bir (uzun) fonksiyon tanımlanmış mı? 
   
 ## Kapsam Sızıntısı (Scope Leakage)
 ## Taşıma Semantiği (Move Semantics) 
+  + Sınıfın move member'ları delete edilmiş mi?
+
 ## Kopyalamanın Eliminasyonu (Copy Elision)
 ## Sınıfların kopyalama maliyeti yüksek olan elemanlarını get eden üye fonksiyonlar
 
