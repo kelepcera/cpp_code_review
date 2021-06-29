@@ -1,11 +1,11 @@
 ## Başlık Dosyaları (Header Files)
 + gereksiz yere bir başlık dosyası include edilmiş mi?
-  + ön bildirim (forward declaration) yapmak yerine gereksiz yere başlık dosyası include edilmiş mi?
-+ başlık dosyasında using bildirimi var mı?
-+ başlık dosyasında using namespace direktifi var mı?
+  + ön bildirim _(forward declaration)_ yapmak yerine gereksiz yere başlık dosyası include edilmiş mi?
++ başlık dosyasında _using bildirimi_ var mı?
++ başlık dosyasında _using namespace direktifi_ var mı?
   
 ## Const Doğruluğu (Const Correctness)
-  + salt okuma amaçlı kullanılacak değişkenler const yapılmış mı?
+  + salt okuma _(read-only access)_ amaçlı kullanılacak değişkenler const yapılmış mı?
     + lookup table olarak kullanılan veri yapıları const yapılmış mı?
     + okuma amaçlı erişim sağlayan referans parametreler const yapılmış mı?
     + gösterici değişkenler
@@ -31,8 +31,12 @@
 
 ## Fonksiyonlar
   + fonksiyonlara birden fazla görev yüklenmiş mi?
+  + fonksiyon ismi iyi seçilmiş mi?
+    + verilen isim yeterince betimleyici mi?
+    + 
+
   + küçük birden fazla fonksiyon yerine tek bir (uzun) fonksiyon tanımlanmış mı? 
-  + kullanılmayan paraemtreler (gereksiz yere) isimlendirilmiş mi?
+  + kullanılmayan parametreler (gereksiz yere) isimlendirilmiş mi?
   
 ## Kapsam Sızıntısı (Scope Leakage)
 ## Taşıma Semantiği (Move Semantics) 
