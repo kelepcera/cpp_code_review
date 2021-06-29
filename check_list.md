@@ -45,7 +45,11 @@
 + kullanılmayacak parametreler (gereksiz yere) isimlendirilmiş mi?
 + fonksiyon parametre sayısı fazla mı?
 
+## Fonksiyon Yüklemesi (Function Overloading)
+
 ## Argüman Gönderimi (Parameter Passing)
+
+## Operatör Yüklemesi (Operator Overloading)
 
 ## Lambda İfadeleri (Lambda Expressions)
 + lambda ifadesinin kullanılması gereken (daha iyi olan) yerlerde global fonksiyon tanımlanmış mı?
