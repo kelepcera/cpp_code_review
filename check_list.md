@@ -42,6 +42,8 @@
 + kullanılmayacak parametreler (gereksiz yere) isimlendirilmiş mi?
 + fonksiyon parametre sayısı fazla mı?
 
+## Argüman Gönderimi (Parameter Passing)
+
 ## Lambda İfadeleri (Lambda Expressions)
 
   
@@ -60,6 +62,8 @@
 
 ## Exception Handling
 + sınıfların move constructor, move assignment, swap işlevleri _noexcept_ olarak tanımlanmış mı?
+
+## Akıllı Göstericiler (Smart Pointers)
 
 ## Attribute'lar 
 + geri dönüş değerinin kullanılması lojik açıdan zorunlu olan fonksiyonlar için _[[nodiscard]]_ attribute'ı kullanılmış mı?
