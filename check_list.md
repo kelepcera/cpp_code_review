@@ -37,6 +37,8 @@
 
   + küçük birden fazla fonksiyon yerine tek bir (uzun) fonksiyon tanımlanmış mı? 
   + kullanılmayan parametreler (gereksiz yere) isimlendirilmiş mi?
+
+## Lambda İfadeleri (Lambda Expressions)
   
 ## Kapsam Sızıntısı (Scope Leakage)
 ## Taşıma Semantiği (Move Semantics) 
