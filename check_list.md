@@ -45,6 +45,8 @@
 
 ## Operatörler (Operators)
 
+## Kontrol Deyimleri (Control Statements)
+
 ## Tür Dönüşümleri ve Tür Dönüştürme Operatörleri
 
 ## Fonksiyonlar
