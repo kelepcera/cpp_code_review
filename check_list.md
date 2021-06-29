@@ -18,6 +18,7 @@
 ## Yorum satırları (Comment Lines)
 + gereksiz yorum satırı var mı?
 + güncellenmesi _(update)_ gereken yorum satırı var mı?
++ yorum satırları gereksiz yere uzun tutulmuş mu?
   
      
 ## İsimlendirme (Naming)
@@ -37,6 +38,7 @@
 + isimlendirilmemiş enum türü kullanılmış mı?
 + gereksiz yere numaralandırma sabitlerinin değerleri belirlenmiş mi?
 + gereksiz yere baz tür _(underlying type)_ belirlenmiş mi?
++ numaralandırma sabitleri tamamı büyük harf _(all caps)_ isimlendirilmiş mi?
 
 ## Operatörler (Operators)
 
