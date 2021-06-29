@@ -45,6 +45,8 @@
 
 ## Operatörler (Operators)
 
+## Tür Dönüşümleri ve Tür Dönüştürme Operatörleri
+
 ## Fonksiyonlar
 + fonksiyon ismi iyi seçilmiş mi?
   + verilen ismi  yeterince betimleyici mi?
