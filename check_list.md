@@ -30,13 +30,12 @@
     
 
 ## Fonksiyonlar
-  + fonksiyonlara birden fazla görev yüklenmiş mi?
-  + fonksiyon ismi iyi seçilmiş mi?
-    + verilen isim yeterince betimleyici mi?
-    + 
-
++ fonksiyon ismi iyi seçilmiş mi?
+  + verilen ismi  yeterince betimleyici mi?
++ fonksiyonlara birden fazla görev yüklenmiş mi?
   + küçük birden fazla fonksiyon yerine tek bir (uzun) fonksiyon tanımlanmış mı? 
-  + kullanılmayan parametreler (gereksiz yere) isimlendirilmiş mi?
++ kullanılmayacak parametreler (gereksiz yere) isimlendirilmiş mi?
++ fonksiyon parametre sayısı fazla mı?
 
 ## Lambda İfadeleri (Lambda Expressions)
   
