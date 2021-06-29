@@ -4,6 +4,8 @@
 + başlık dosyasında _using bildirimi_ var mı?
 + başlık dosyasında _using namespace direktifi_ var mı?
 + başlık dosyasında tek tanımlama kuralını _(ODR)_ çiğneyen bir tanımlama var mı?  
+
+## Değişken Bildirimleri
   
 ## Const Doğruluğu (Const Correctness)
   + salt okuma _(read-only access)_ amaçlı kullanılacak değişkenler const yapılmış mı?
