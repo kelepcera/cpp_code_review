@@ -37,6 +37,8 @@
 + isimlendirilmemiş enum türü kullanılmış mı?
 + gereksiz yere numaralandırma sabitlerinin değerleri belirlenmiş mi?
 
+## Operatörler (Operators)
+
 ## Fonksiyonlar
 + fonksiyon ismi iyi seçilmiş mi?
   + verilen ismi  yeterince betimleyici mi?
@@ -44,6 +46,7 @@
   + küçük birden fazla fonksiyon yerine tek bir (uzun) fonksiyon tanımlanmış mı? 
 + kullanılmayacak parametreler (gereksiz yere) isimlendirilmiş mi?
 + fonksiyon parametre sayısı fazla mı?
++ variadic fonksiyon tanımlanmış mı?
 
 ## Fonksiyon Yüklemesi (Function Overloading)
 
