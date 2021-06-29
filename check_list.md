@@ -3,6 +3,7 @@
   + ön bildirim _(forward declaration)_ yapmak yerine gereksiz yere başlık dosyası include edilmiş mi?
 + başlık dosyasında _using bildirimi_ var mı?
 + başlık dosyasında _using namespace direktifi_ var mı?
++ başlık dosyasında tek tanımlama kuralını _(ODR)_ çiğneyen bir tanımlama var mı?  
   
 ## Const Doğruluğu (Const Correctness)
   + salt okuma _(read-only access)_ amaçlı kullanılacak değişkenler const yapılmış mı?
@@ -44,6 +45,8 @@
 ## Lambda İfadeleri (Lambda Expressions)
   
 ## Kapsam Sızıntısı (Scope Leakage)
++ değişken isimlerinin kapsamları gereksiz yere geniş tutulmuş mu?
++ Kapsam daraltılması için ilk değer vermeli if deyimi _(if with initializer)_ kullanılmış mı?
 ## Taşıma Semantiği (Move Semantics) 
   + Sınıfın move member'ları delete edilmiş mi?
 
