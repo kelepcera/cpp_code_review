@@ -8,14 +8,15 @@
 ## Değişken Bildirimleri
   
 ## Const Doğruluğu (Const Correctness)
-  + salt okuma _(read-only access)_ amaçlı kullanılacak değişkenler const yapılmış mı?
-    + lookup table olarak kullanılan veri yapıları const yapılmış mı?
-    + okuma amaçlı erişim sağlayan referans parametreler const yapılmış mı?
-    + gösterici değişkenler
-      + low level const
-      + top level const
-    + aralık tabanlı for döngülerinde döngü değişkeni olarak kullanılan sol taraf referansları
-    + const olması gereken üye fonksiyonları
++ değişkenler varsayılan biçimde _(default)_ const olarak tanımlanmış mı?
++ salt okuma _(read-only access)_ amaçlı kullanılacak değişkenler const yapılmış mı?
+  + lookup table olarak kullanılan veri yapıları const yapılmış mı?
+  + okuma amaçlı erişim sağlayan referans parametreler const yapılmış mı?
+  + gösterici değişkenler
+    + low level const
+    + top level const
+  + aralık tabanlı for döngülerinde döngü değişkeni olarak kullanılan sol taraf referansları
+  + const olması gereken üye fonksiyonları
 
 ## Yorum satırları (Comment Lines)
 + gereksiz yorum satırı var mı?
