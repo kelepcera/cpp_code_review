@@ -15,6 +15,9 @@
     + const olması gereken üye fonksiyonları
 
 ## Yorum satırları (Comment Lines)
++ gereksiz yorum satırı var mı?
++ güncellenmesi _(update)_ gereken yorum satırı var mı?
+  
      
 ## İsimlendirme (Naming)
   + Türkçe isim kullanılmış mı?
@@ -28,6 +31,7 @@
     + nullptr yerine NULL makrosu kullanılmış mı?
     + nullptr yerine tam sayı sabiti olarak 0 kullanılmış mı?
     
+## Numaralandırmalar (enums)
 
 ## Fonksiyonlar
 + fonksiyon ismi iyi seçilmiş mi?
