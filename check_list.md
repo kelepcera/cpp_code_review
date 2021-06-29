@@ -44,5 +44,6 @@
   + Sınıfın move member'ları delete edilmiş mi?
 
 ## Kopyalamanın Eliminasyonu (Copy Elision)
-## Sınıfların kopyalama maliyeti yüksek olan elemanlarını get eden üye fonksiyonlar
+
+# Sınıflar (Classes)
 
