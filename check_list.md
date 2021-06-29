@@ -10,13 +10,19 @@
       + top level const
     + aralık tabanlı for döngülerinde döngü değişkeni olarak kullanılan sol taraf referansları
     + const olması gereken üye fonksiyonları
-    
+
+## Yorum satırları (Comment Lines)
+     
 ## İsimlendirme (Naming)
+  + Türkçe isim kullanılmış mı?
   + isimlendirmede tutarlı bir konvensiyon kullanılmış mı?
   + birbirine çok yakın isimler seçilmiş mi? (x1, x2, x3)
   + görsel olarak 0 ile karıştırılma riski olan o karakteri
+  + fonksiyon isimleri iyi seçilmiş mi?
 
 ## Sabitler (constants)
+## Fonksiyonlar
+  
 ## Kapsam Sızıntısı (Scope Leakage)
 ## Taşıma Semantiği (Move Semantics) 
 ## Kopyalamanın Eliminasyonu (Copy Elision)
