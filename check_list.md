@@ -67,7 +67,8 @@
 + gereken yerlerde "yapılandırılmış bağlama" _(structured binding)_ kullanılmış mı?
 
 ## Taşıma Semantiği (Move Semantics) 
-  + Sınıfın move member'ları delete edilmiş mi?
+  + sınıfın move member'ları delete edilmiş mi?
+  + return ifadesinde std::move işlevi çağrılmış mı?
 
 ## Kopyalamanın Eliminasyonu (Copy Elision)
 
