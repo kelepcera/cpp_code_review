@@ -33,6 +33,7 @@
   + birbirine çok yakın isimler seçilmiş mi? (x1, x2, x3)
   + görsel olarak 0 ile karıştırılma riski olan o karakteri kullanılmış mı?
   + fonksiyon isimleri iyi seçilmiş mi?
+  + tamamı büyük harf olan _(all caps)__ isimler kullanılmış mı?
 
 ## Sabitler (constants)
   + nullptr
@@ -42,8 +43,8 @@
 ## Numaralandırmalar (enums)
 + kapsamlı enum türü _(enum class)_ yerine kapsamsız enum türü kullanılmış mı?
 + isimlendirilmemiş enum türü kullanılmış mı?
-+ gereksiz yere numaralandırma sabitlerinin değerleri belirlenmiş mi?
-+ gereksiz yere baz tür _(underlying type)_ belirlenmiş mi?
++ gereksiz biçimde numaralandırma sabitlerinin değerleri belirlenmiş mi?
++ gereksiz biçimde baz tür _(underlying type)_ belirlenmiş mi?
 + numaralandırma sabitleri tamamı büyük harf _(all caps)_ isimlendirilmiş mi?
 
 ## Operatörler (Operators)
@@ -90,7 +91,7 @@
 
 ## Exception Handling
 + sınıfların move constructor, move assignment, swap işlevleri _noexcept_ olarak tanımlanmış mı?
-+ _cathc_ bloklarının sırası doğru mu? (özelden genele)
++ _catch_ bloklarının sırası doğru mu? (özelden genele)
 
 ## Akıllı Göstericiler (Smart Pointers)
 
