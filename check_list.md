@@ -6,6 +6,7 @@
 + başlık dosyasında tek tanımlama kuralını _(ODR)_ çiğneyen bir tanımlama var mı?  
 
 ## Değişken Bildirimleri
++ Aritmetik türlerden ya da pointer türlerinden İlk değer verilmeden tanımlanan değişkenler var mı?
   
 ## Const Doğruluğu (Const Correctness)
 + değişkenler varsayılan biçimde _(default)_ const olarak tanımlanmış mı?
