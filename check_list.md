@@ -59,6 +59,7 @@
 + STL algoritmaları yerine ham döngü deyimleri _(raw loops)_ kullanılmış mı? 
 + gereksiz _goto_ deyimi kullanılmış mı?
 + gereksiz _do while_ döngüsü kullanılmış mı?
++ _switch_ deyimlerinde gereksiz _default_ case kullanımı var mı?
 
 ## Tür Dönüşümleri ve Tür Dönüştürme Operatörleri
 
@@ -96,11 +97,17 @@
 
 ## Sınıflar (Classes)
 + oluşturulan sınıf cohesive mi?
++ veri gizleme ilkelerine uyulmuş mu?
 + tek sorumluluk _(Single Responsibility Principle)_ ilkesine uyulmuş mu?
++ üye fonksiyonlar
+  + const olması gereken üye fonksiyonlar const yapılmış mı?
+  + üye fonksiyon içinde gereksiz yere (sık tekrarlanan) _this_ kullanımı var mı?
+  + üye fonksiyon içinde _if (this == nullptr)_ sınaması var mı?
 
 ## Exception Handling
 + sınıfların move constructor, move assignment, swap işlevleri _noexcept_ olarak tanımlanmış mı?
 + _catch_ bloklarının sırası doğru mu? (özelden genele)
++ verilmemesi gereken _noexcept_ garantisi verilmiş mi?
 
 ## Akıllı Göstericiler (Smart Pointers)
 + new ve delete operatörleri doğrudan kullanılmış mı?
