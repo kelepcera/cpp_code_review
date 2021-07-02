@@ -76,7 +76,7 @@
 
 ## İsim Alanları (Namespaces)
 + global fonksiyonlar namespace içinde mi?
-+ isim alanları 
++ isim alanları isimleri tamamı küçük harf mi _(all lower case)_ ?
 
 ## Fonksiyonlar
 + fonksiyon ismi iyi seçilmiş mi?
