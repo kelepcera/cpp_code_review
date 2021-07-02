@@ -30,6 +30,7 @@
 
 ## Yorum satırları (Comment Lines)
 + gereksiz yorum satırı var mı?
+  + kodun açık ve net olduğu yerlerde _(selfexplanatory)_ açıklama satırları kullanılmış mı? 
 + güncellenmesi _(update)_ gereken yorum satırı var mı?
 + yorum satırları gereksiz yere uzun tutulmuş mu?
 + değişken bildirimleri için açıklama satırı var mı? _(kötü isimlendirme)_
