@@ -95,11 +95,14 @@
 + lambda ifadesinin kullanılması gereken (daha iyi olan) yerlerde global fonksiyon tanımlanmış mı?
   
 ## Kapsam ve Kapsam Sızıntısı (Scope & Scope Leakage)
++ Değişkenler ilk kullanıldıkları yerde tanımlanmış mı?
 + yerel bir isim global bir ismi maskeliyor mu?
 + yerel bir isim sınıf kapsamındaki bir ismi maskeliyor mu?
 + değişken isimlerinin kapsamları gereksiz yere geniş tutulmuş mu?
 + gereken yerlerde kapsam daraltılması için ilk değer vermeli if deyimi _(if with initializer)_ kullanılmış mı?
 + gereken yerlerde "yapılandırılmış bağlama" _(structured binding)_ kullanılmış mı?
+
+## Tür Çıkarımı (Type Deduction)
 
 ## Taşıma Semantiği (Move Semantics) 
 + sınıfın move member'ları delete edilmiş mi?
