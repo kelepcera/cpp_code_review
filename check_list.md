@@ -142,10 +142,12 @@
 
 ## Concurrency
 
+## STL
++ C dizisi _(C array)_ kullanılan yerler var mı? _(istisnai durumlar dışında std::array kullanılmalı) _
 ## Kod Yerleşimi (Code Layout)
 - Kod yerleşiminde tutarlı ve istikrarlı şekilde bir konvensiyon kullanılmış mı?
 - Genel kabul görmüş istisnalar dışında 80 karakterden daha uzun kod satırı var mı?
 
 ## Diğer Konular ve Araçlar (Miscellaneous)
 + _deprecated_ dil ya da standart kütüphane öğeleri kullanılmış mı?
-+ 
+
