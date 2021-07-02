@@ -147,3 +147,4 @@
 
 ## Diğer Konular ve Araçlar (Miscellaneous)
 + _deprecated_ dil ya da standart kütüphane öğeleri kullanılmış mı?
++ 
