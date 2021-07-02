@@ -21,7 +21,7 @@
 
 ## constexpr & consteval
 + Derleme zamanında hesaplanabilecek değerler için _constexpr_ fonksiyonlar kullanılmış mı?
-+ Derleme zamanında hesaplanması gereken değerler için _consteval_ fonksiyonlar kullanılmış mı?
++ Derleme zamanında hesaplanması gereken değerler için _consteval_ fonksiyonlar _(C++20)_ kullanılmış mı?
 
 
 ## Yorum satırları (Comment Lines)
