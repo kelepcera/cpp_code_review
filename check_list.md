@@ -103,7 +103,7 @@
 + lambda ifadesinin kullanılması gereken (daha iyi olan) yerlerde global fonksiyon tanımlanmış mı?
   
 ## Kapsam ve Kapsam Sızıntısı (Scope & Scope Leakage)
-+ Değişkenler ilk kullanıldıkları yerde tanımlanmış mı?
++ değişkenler ilk kullanıldıkları yerde _(yere takın)_ tanımlanmış mı?
 + yerel bir isim global bir ismi maskeliyor mu?
 + yerel bir isim sınıf kapsamındaki bir ismi maskeliyor mu?
 + değişken isimlerinin kapsamları gereksiz yere geniş tutulmuş mu?
@@ -145,9 +145,10 @@
 
 ## STL
 + C dizisi _(C array)_ kullanılan yerler var mı? _(istisnai durumlar dışında std::array kullanılmalı) _
+
 ## Kod Yerleşimi (Code Layout)
-- Kod yerleşiminde tutarlı ve istikrarlı şekilde bir konvensiyon kullanılmış mı?
-- Genel kabul görmüş istisnalar dışında _80_ karakterden daha uzun kod satırı var mı?
++ kod yerleşiminde tutarlı ve istikrarlı şekilde bir konvensiyon kullanılmış mı?
++ genel kabul görmüş istisnalar dışında _80_ karakterden daha uzun kod satırı var mı?
 
 ## Diğer Konular ve Araçlar (Miscellaneous)
 + _deprecated_ dil ya da standart kütüphane öğeleri kullanılmış mı?
