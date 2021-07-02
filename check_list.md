@@ -86,6 +86,7 @@
 + variadic fonksiyon tanımlanmış mı?
 + fonksiyon parametreleri için _strong type_ yerine doğrudan tam sayı türleri kullanılmış mı?
 + uzun kod satırlarına sahip (10 satırdan fazla) _inline_ fonksiyonlar tanımlanmış mı?
++ geri dönüş değeri adres türlerinden olan fonksiyonlar var mı?
 
 ## Fonksiyon Yüklemesi (Function Overloading)
 
