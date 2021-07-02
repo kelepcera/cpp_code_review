@@ -19,8 +19,10 @@
   + aralık tabanlı for döngülerinde döngü değişkeni olarak kullanılan sol taraf referansları
   + const olması gereken üye fonksiyonları
 
-## constexpr
-+ Derleme zamanında hesaplanacak değerler için _constexpr_ fonksiyonlar kullanılmış mı?
+## constexpr & consteval
++ Derleme zamanında hesaplanabilecek değerler için _constexpr_ fonksiyonlar kullanılmış mı?
++ Derleme zamanında hesaplanması gereken değerler için _consteval_ fonksiyonlar kullanılmış mı?
+
 
 ## Yorum satırları (Comment Lines)
 + gereksiz yorum satırı var mı?
