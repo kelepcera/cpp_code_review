@@ -38,11 +38,11 @@
 + görsel olarak 0 ile karıştırılma riski olan o karakteri kullanılmış mı?
 + fonksiyon isimleri iyi seçilmiş mi?
 + tamamı büyük harf olan _(all caps)_ isimler kullanılmış mı?
-+ isimlerde gereksiz öne ekler kullanılmış mı?
++ isimlerde gereksiz ön ekler kullanılmış mı?
 
 ## Sabitler (constants)
  + nullptr yerine NULL makrosu kullanılmış mı?
- + nullptr yerine tam sayı sabiti olarak 0 kullanılmış mı?
+ + nullptr yerine tam sayı sabiti olarak '0' kullanılmış mı?
  + tam sayı ve gerçek sayı sabitlerinin türü doğru seçilmiş mi?
  + isimlendirilmesi gereken sabitler isimsiz olarak kullanılmış mı?
     
