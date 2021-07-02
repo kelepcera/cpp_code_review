@@ -71,6 +71,7 @@
 + kullanılmayacak parametreler (gereksiz yere) isimlendirilmiş mi?
 + fonksiyon parametre sayısı fazla mı?
 + variadic fonksiyon tanımlanmış mı?
++ fonksiyon parametreleri için _strong type_ yerine doğrudan tam sayı türleri kullanılmış mı?
 
 ## Fonksiyon Yüklemesi (Function Overloading)
 
