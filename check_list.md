@@ -31,12 +31,13 @@
   
      
 ## İsimlendirme (Naming)
-  + Türkçe isim kullanılmış mı?
-  + isimlendirmede tutarlı bir konvensiyon kullanılmış mı?
-  + birbirine çok yakın isimler seçilmiş mi? (x1, x2, x3)
-  + görsel olarak 0 ile karıştırılma riski olan o karakteri kullanılmış mı?
-  + fonksiyon isimleri iyi seçilmiş mi?
-  + tamamı büyük harf olan _(all caps)__ isimler kullanılmış mı?
++ iismler anlaşılır mı?
++ Türkçe isim kullanılmış mı?
++ isimlendirmede tutarlı bir konvensiyon kullanılmış mı?
++ birbirine çok yakın isimler seçilmiş mi? (x1, x2, x3)
++ görsel olarak 0 ile karıştırılma riski olan o karakteri kullanılmış mı?
++ fonksiyon isimleri iyi seçilmiş mi?
++ tamamı büyük harf olan _(all caps)__ isimler kullanılmış mı?
 
 ## Sabitler (constants)
   + nullptr
@@ -89,14 +90,16 @@
 ## Kopyalamanın Eliminasyonu (Copy Elision)
 
 ## Sınıflar (Classes)
-+ Oluşturulan sınıf cohesive mi?
-+ Tek sorumluluk _(Single Responsibility Principle)_ ilkesine uyulmuş mu?
++ oluşturulan sınıf cohesive mi?
++ tek sorumluluk _(Single Responsibility Principle)_ ilkesine uyulmuş mu?
 
 ## Exception Handling
 + sınıfların move constructor, move assignment, swap işlevleri _noexcept_ olarak tanımlanmış mı?
 + _catch_ bloklarının sırası doğru mu? (özelden genele)
 
 ## Akıllı Göstericiler (Smart Pointers)
++ new ve delete operatörleri doğrudan kullanılmış mı?
++ dinamik ömürlü nesneler ham göstericiler _(raw pointers)_ ile kullanılmış mı?
 
 ## Attribute'lar 
 + geri dönüş değerinin kullanılması lojik açıdan zorunlu olan fonksiyonlar için _[[nodiscard]]_ attribute'ı kullanılmış mı?
