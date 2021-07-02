@@ -43,6 +43,7 @@
 + fonksiyon isimleri iyi seçilmiş mi?
 + tamamı büyük harf olan _(all caps)_ isimler kullanılmış mı?
 + isimlerde gereksiz ön ekler kullanılmış mı?
++ standart kütüphane tarafından rezerve edilmiş isimler kullanılmış mı?
 
 ## Sabitler (constants)
  + nullptr yerine NULL makrosu kullanılmış mı?
@@ -58,6 +59,9 @@
 + numaralandırma sabitleri tamamı büyük harf _(all caps)_ isimlendirilmiş mi?
 
 ## Operatörler (Operators)
+
+## İfadeler (Expressions)
++ karmaşık ve fazla sayıda operatör içeren ifadelerde öncelik parantez(ler)i kullanılmış mı?
 
 ## Kontrol Deyimleri (Control Statements)
 + STL algoritmaları yerine ham döngü deyimleri _(raw loops)_ kullanılmış mı? 
@@ -137,4 +141,4 @@
 ## Concurrency
 
 ## Diğer Konular ve Araçlar (Miscellaneous)
-
++ _deprecated_ dil ya da standart kütüphane öğeleri kullanılmış mı?
