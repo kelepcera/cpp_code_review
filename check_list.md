@@ -14,10 +14,10 @@
   + lookup table olarak kullanılan veri yapıları const yapılmış mı?
   + okuma amaçlı erişim sağlayan referans parametreler const yapılmış mı?
   + gösterici değişkenler
-    + low level const
-    + top level const
-  + aralık tabanlı for döngülerinde döngü değişkeni olarak kullanılan sol taraf referansları
-  + const olması gereken üye fonksiyonları
+    + low level const olması gerekenler
+    + top level const olması gerekenler
+  + aralık tabanlı for döngülerinde döngü değişkeni olarak kullanılan sol taraf referansları const yapılmış mı?
+  + const olması gereken üye fonksiyonları const yapılmış mı?
 
 ## constexpr & consteval
 + Derleme zamanında hesaplanabilecek değerler için _constexpr_ fonksiyonlar kullanılmış mı?
