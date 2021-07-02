@@ -57,8 +57,10 @@
 
 ## Kontrol Deyimleri (Control Statements)
 + STL algoritmaları yerine ham döngü deyimleri _(raw loops)_ kullanılmış mı? 
-+ gereksiz _goto_ deyimi kullanılmış mı?
 + gereksiz _do while_ döngüsü kullanılmış mı?
++ aralık tabanlı for döngü deyimleri _(range-based for loop)_ yerine geleneksel _for_ döngü deyimi kullanılmış mı?
++ gereksiz _goto_ deyimi kullanılmış mı?
+
 + _switch_ deyimlerinde gereksiz _default_ case kullanımı var mı?
 
 ## Tür Dönüşümleri ve Tür Dönüştürme Operatörleri
@@ -109,6 +111,7 @@
 + sınıfların move constructor, move assignment, swap işlevleri _noexcept_ olarak tanımlanmış mı?
 + _catch_ bloklarının sırası doğru mu? (özelden genele)
 + verilmemesi gereken _noexcept_ garantisi verilmiş mi?
++ kod tekrarı yerine exception handling fonksiyonları _(lippincott functions)_ kullanılmış mı?
 
 ## Akıllı Göstericiler (Smart Pointers)
 + new ve delete operatörleri doğrudan kullanılmış mı?
