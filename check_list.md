@@ -5,6 +5,11 @@
 + başlık dosyasında _using namespace direktifi_ var mı?
 + başlık dosyasında tek tanımlama kuralını _(ODR)_ çiğneyen bir tanımlama var mı?  
 
+## Önişlemci (Preprocessor)
++ Koşullu derleme komutları _(conditional compiling)_ dışında makrolar kullanılmış mı?
+  + sembolik sabit olarak makro kullanılmış mı?
+  + fonksiyonel makrolar _(functional macro)_ kullanılmış mı?
+
 ## Değişken Bildirimleri
 + Aritmetik türlerden ya da pointer türlerinden İlk değer verilmeden tanımlanan değişkenler var mı?
   
@@ -84,6 +89,7 @@
 + operatör yüklemeleri anlaşılır ve kolay kullanılabilir mi _(intuitive)_?
 + aritmetik operatörler yüklenmiş ancak işlemli atama operatörleri yüklenmemiş mi?
 + karşılaştırma operatörleri için _three way comparison (C++20)_ kullanılmış mı?
++ programcı türleri(user defined types)_ için önek ++ operatör fonksiyonu yerine sonek ++ operatörü kullanılmış mı?
 
 ## Lambda İfadeleri (Lambda Expressions)
 + lambda ifadesinin kullanılması gereken (daha iyi olan) yerlerde global fonksiyon tanımlanmış mı?
@@ -125,4 +131,6 @@
 + switch deyimlerinde gerekli yerlerde _[[fallthrough]]_ attribute'ı kullanılmış mı?
 
 ## Concurrency
+
+## Diğer Konular ve Araçlar (Miscellaneous)
 
