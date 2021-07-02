@@ -28,8 +28,7 @@
 + gereksiz yorum satırı var mı?
 + güncellenmesi _(update)_ gereken yorum satırı var mı?
 + yorum satırları gereksiz yere uzun tutulmuş mu?
-  
-     
+       
 ## İsimlendirme (Naming)
 + isimler anlaşılır mı?
 + Türkçe isim kullanılmış mı?
@@ -64,6 +63,9 @@
 
 ## Tür Dönüşümleri ve Tür Dönüştürme Operatörleri
 
+## İsim Alanları (Namespaces)
++ global fonksiyonlar namespace içinde mi?
+
 ## Fonksiyonlar
 + fonksiyon ismi iyi seçilmiş mi?
 + verilen ismi  yeterince betimleyici mi?
@@ -96,8 +98,8 @@
 + gereken yerlerde "yapılandırılmış bağlama" _(structured binding)_ kullanılmış mı?
 
 ## Taşıma Semantiği (Move Semantics) 
-  + sınıfın move member'ları delete edilmiş mi?
-  + return ifadesinde std::move işlevi çağrılmış mı?
++ sınıfın move member'ları delete edilmiş mi?
++ return ifadesinde std::move işlevi çağrılmış mı?
 
 ## Kopyalamanın Eliminasyonu (Copy Elision)
 
