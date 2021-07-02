@@ -48,7 +48,7 @@
     
 ## Numaralandırmalar (enums)
 + kapsamlı enum türü _(enum class)_ yerine kapsamsız enum türü kullanılmış mı?
-+ isimlendirilmemiş enum türü kullanılmış mı?
++ isimlendirilmemiş _enum_ türü kullanılmış mı?
 + gereksiz biçimde numaralandırma sabitlerinin değerleri belirlenmiş mi?
 + gereksiz biçimde baz tür _(underlying type)_ belirlenmiş mi?
 + numaralandırma sabitleri tamamı büyük harf _(all caps)_ isimlendirilmiş mi?
@@ -80,6 +80,9 @@
 ## Argüman Gönderimi (Parameter Passing)
 
 ## Operatör Yüklemesi (Operator Overloading)
++ operatör yüklemeleri anlaşılır ve kolay kullanılabilir mi _(intuitive)_?
++ aritmetik operatörler yüklenmiş ancak işlemli atama operatörleri yüklenmemiş mi?
++ karşılaştırma operatörleri için _three way comparison (C++20)_ kullanılmış mı?
 
 ## Lambda İfadeleri (Lambda Expressions)
 + lambda ifadesinin kullanılması gereken (daha iyi olan) yerlerde global fonksiyon tanımlanmış mı?
