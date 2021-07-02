@@ -31,18 +31,20 @@
   
      
 ## İsimlendirme (Naming)
-+ iismler anlaşılır mı?
++ isimler anlaşılır mı?
 + Türkçe isim kullanılmış mı?
 + isimlendirmede tutarlı bir konvensiyon kullanılmış mı?
 + birbirine çok yakın isimler seçilmiş mi? (x1, x2, x3)
 + görsel olarak 0 ile karıştırılma riski olan o karakteri kullanılmış mı?
 + fonksiyon isimleri iyi seçilmiş mi?
-+ tamamı büyük harf olan _(all caps)__ isimler kullanılmış mı?
++ tamamı büyük harf olan _(all caps)_ isimler kullanılmış mı?
++ isimlerde gereksiz öne ekler kullanılmış mı?
 
 ## Sabitler (constants)
-  + nullptr
-    + nullptr yerine NULL makrosu kullanılmış mı?
-    + nullptr yerine tam sayı sabiti olarak 0 kullanılmış mı?
+ + nullptr yerine NULL makrosu kullanılmış mı?
+ + nullptr yerine tam sayı sabiti olarak 0 kullanılmış mı?
+ + tam sayı ve gerçek sayı sabitlerinin türü doğru seçilmiş mi?
+ + isimlendirilmesi gereken sabitler isimsiz olarak kullanılmış mı?
     
 ## Numaralandırmalar (enums)
 + kapsamlı enum türü _(enum class)_ yerine kapsamsız enum türü kullanılmış mı?
@@ -54,6 +56,9 @@
 ## Operatörler (Operators)
 
 ## Kontrol Deyimleri (Control Statements)
++ STL algoritmaları yerine ham döngü deyimleri _(raw loops)_ kullanılmış mı? 
++ gereksiz _goto_ deyimi kullanılmış mı?
++ gereksiz _do while_ döngüsü kullanılmış mı?
 
 ## Tür Dönüşümleri ve Tür Dönüştürme Operatörleri
 
