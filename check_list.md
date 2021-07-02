@@ -32,6 +32,7 @@
 + gereksiz yorum satırı var mı?
 + güncellenmesi _(update)_ gereken yorum satırı var mı?
 + yorum satırları gereksiz yere uzun tutulmuş mu?
++ değişken bildirimleri için açıklama satırı var mı? _(kötü isimlendirme)_
        
 ## İsimlendirme (Naming)
 + isimler anlaşılır mı?
