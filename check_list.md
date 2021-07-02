@@ -23,7 +23,6 @@
 + Derleme zamanında hesaplanabilecek değerler için _constexpr_ fonksiyonlar kullanılmış mı?
 + Derleme zamanında hesaplanması gereken değerler için _consteval_ fonksiyonlar _(C++20)_ kullanılmış mı?
 
-
 ## Yorum satırları (Comment Lines)
 + gereksiz yorum satırı var mı?
 + güncellenmesi _(update)_ gereken yorum satırı var mı?
@@ -88,7 +87,6 @@
 
 ## Lambda İfadeleri (Lambda Expressions)
 + lambda ifadesinin kullanılması gereken (daha iyi olan) yerlerde global fonksiyon tanımlanmış mı?
-
   
 ## Kapsam ve Kapsam Sızıntısı (Scope & Scope Leakage)
 + yerel bir isim global bir ismi maskeliyor mu?
@@ -125,4 +123,6 @@
 ## Attribute'lar 
 + geri dönüş değerinin kullanılması lojik açıdan zorunlu olan fonksiyonlar için _[[nodiscard]]_ attribute'ı kullanılmış mı?
 + switch deyimlerinde gerekli yerlerde _[[fallthrough]]_ attribute'ı kullanılmış mı?
+
+## Concurrency
 
