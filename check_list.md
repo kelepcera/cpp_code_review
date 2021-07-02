@@ -76,6 +76,7 @@
 
 ## İsim Alanları (Namespaces)
 + global fonksiyonlar namespace içinde mi?
++ isim alanları 
 
 ## Fonksiyonlar
 + fonksiyon ismi iyi seçilmiş mi?
