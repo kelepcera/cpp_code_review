@@ -33,6 +33,7 @@
 + güncellenmesi _(update)_ gereken yorum satırı var mı?
 + yorum satırları gereksiz yere uzun tutulmuş mu?
 + değişken bildirimleri için açıklama satırı var mı? _(kötü isimlendirme)_
++ debug amaçlı _comment out_ yapılmış kodlar kaynak dosyada bırakılmış mı?
        
 ## İsimlendirme (Naming)
 + isimler anlaşılır mı?
@@ -139,6 +140,10 @@
 + switch deyimlerinde gerekli yerlerde _[[fallthrough]]_ attribute'ı kullanılmış mı?
 
 ## Concurrency
+
+## Kod Yerleşimi (Code Layout)
+- Kod yerleşiminde tutarlı ve istikrarlı şekilde bir konvensiyon kullanılmış mı?
+- Genel kabul görmüş istisnalar dışında 80 karakterden daha uzun kod satırı var mı?
 
 ## Diğer Konular ve Araçlar (Miscellaneous)
 + _deprecated_ dil ya da standart kütüphane öğeleri kullanılmış mı?
