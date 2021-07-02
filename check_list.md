@@ -60,9 +60,7 @@
 + gereksiz biçimde baz tür _(underlying type)_ belirlenmiş mi?
 + numaralandırma sabitleri tamamı büyük harf _(all caps)_ isimlendirilmiş mi?
 
-## Operatörler (Operators)
-
-## İfadeler (Expressions)
+## İfadeler ve Operatörler (Expressions & Operators)
 + karmaşık ve fazla sayıda operatör içeren ifadelerde öncelik parantez(ler)i kullanılmış mı?
 
 ## Kontrol Deyimleri (Control Statements)
