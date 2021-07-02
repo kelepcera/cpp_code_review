@@ -60,20 +60,20 @@
 + gereksiz _do while_ döngüsü kullanılmış mı?
 + aralık tabanlı for döngü deyimleri _(range-based for loop)_ yerine geleneksel _for_ döngü deyimi kullanılmış mı?
 + gereksiz _goto_ deyimi kullanılmış mı?
-
 + _switch_ deyimlerinde gereksiz _default_ case kullanımı var mı?
 
 ## Tür Dönüşümleri ve Tür Dönüştürme Operatörleri
 
 ## Fonksiyonlar
 + fonksiyon ismi iyi seçilmiş mi?
-  + verilen ismi  yeterince betimleyici mi?
++ verilen ismi  yeterince betimleyici mi?
 + fonksiyonlara birden fazla görev yüklenmiş mi?
-  + küçük birden fazla fonksiyon yerine tek bir (uzun) fonksiyon tanımlanmış mı? 
++ küçük birden fazla fonksiyon yerine tek bir (uzun) fonksiyon tanımlanmış mı? 
 + kullanılmayacak parametreler (gereksiz yere) isimlendirilmiş mi?
 + fonksiyon parametre sayısı fazla mı?
 + variadic fonksiyon tanımlanmış mı?
 + fonksiyon parametreleri için _strong type_ yerine doğrudan tam sayı türleri kullanılmış mı?
++ uzun kod satırlarına sahip (10 satırdan fazla) _inline_ fonksiyonlar tanımlanmış mı?
 
 ## Fonksiyon Yüklemesi (Function Overloading)
 
