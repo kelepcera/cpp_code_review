@@ -1,45 +1,45 @@
 ## Başlık Dosyaları (Header Files)
-+ gereksiz yere bir başlık dosyası include edilmiş mi?
++ gereksiz yere bir başlık dosyası include edilmiş mi? _(gereksiz başlık dosyalarının include edilmesinden kaçınılmalı)_ 
   + ön bildirim _(forward declaration)_ yapmak yerine gereksiz yere başlık dosyası include edilmiş mi?
-+ başlık dosyasında _using bildirimi_ var mı?
-+ başlık dosyasında _using namespace direktifi_ var mı?
++ başlık dosyasında olmaması gereken _using bildirimi_ var mı?
++ başlık dosyasında olmaması gereken _using namespace direktifi_ var mı?
 + başlık dosyasında tek tanımlama kuralını _(ODR)_ çiğneyen bir tanımlama var mı?  
 
 ## Önişlemci (Preprocessor)
-+ Koşullu derleme komutları _(conditional compiling)_ dışında makrolar kullanılmış mı?
-  + sembolik sabit olarak makro kullanılmış mı?
-  + fonksiyonel makrolar _(functional macro)_ kullanılmış mı?
++ Koşullu derleme komutları _(conditional compiling)_ dışında makrolar kullanılmış mı? _(makro kullanımından kaçınmak gerekiyor)_
+  + sembolik sabit olarak makro kullanılmış mı? _(makro kullanımından kaçınmak gerekiyor)_
+  + fonksiyonel makrolar _(functional macro)_ kullanılmış mı? _(makro kullanımından kaçınmak gerekiyor)_
 
 ## Değişken Bildirimleri
-+ Aritmetik türlerden ya da pointer türlerinden ilk değer verilmeden tanımlanan değişkenler var mı?
++ Aritmetik türlerden ya da pointer türlerinden ilk değer verilmeden tanımlanan değişkenler var mı? _(akis yönde bir zorunluluk olmadıkça değişkenlere ilk değer verilmeli)_
   
 ## Const Doğruluğu (Const Correctness)
-+ değişkenler varsayılan biçimde _(default)_ _const_ olarak tanımlanmış mı?
++ değişkenler varsayılan biçimde _(default)_ _const_ olarak tanımlanmamış mı? _(default olarak parametre değişkenleri dışındaki değişkenler const olmalı)_
 + salt okuma _(read-only access)_ amaçlı kullanılacak değişkenler const yapılmış mı?
-  + arama tablosu _(lookup table)_ olarak kullanılan veri yapıları _const_ yapılmış mı?
-  + okuma amaçlı erişim sağlayan referans parametreler _const_ yapılmış mı?
-  + gösterici değişkenler
-    + low level const olması gerekenler
-    + top level const olması gerekenler
-  + aralık tabanlı for döngülerinde döngü değişkeni olarak kullanılan sol taraf referansları const yapılmış mı?
-  + _const_ olması gereken üye fonksiyonları _const_ yapılmış mı?
+  + arama tablosu _(lookup table)_ olarak kullanılan veri yapıları _const_ yapılmamış mı?
+  + okuma amaçlı erişim sağlayan referans parametreler _const_ yapılmamış mı?
+  + gösterici değişkenlerin _const_'luğuna dikkat edilmiş mi?
+    + low level const olması gerekenler low level const yapılmış mı?
+    + top level const olması gerekenler top level const yapılmış mı?
+  + aralık tabanlı for döngülerinde okuma amaçlı kullanılacak döngü değişkeni olarak kullanılan sol taraf referansları const yapılmamış mı?
+  + _const_ olması gereken üye fonksiyonları _const_ yapılmamış mı?
 
 ## constexpr & consteval
-+ Derleme zamanında hesaplanabilecek değerler için _constexpr_ fonksiyonlar kullanılmış mı?
-+ Derleme zamanında hesaplanması gereken değerler için _consteval_ fonksiyonlar _(C++20)_ kullanılmış mı?
++ Derleme zamanında hesaplanabilecek değerler için _constexpr_ olmayan fonksiyonlar kullanılmış mı?
++ Derleme zamanında hesaplanması gereken değerler için _consteval_ olmayan fonksiyonlar _(C++20)_ kullanılmış mı?
 
 ## Yorum satırları (Comment Lines)
-+ gereksiz yorum satırı var mı?
-  + kodun açık ve net olduğu yerlerde _(selfexplanatory)_ açıklama satırları kullanılmış mı? 
-+ güncellenmesi _(update)_ gereken yorum satırı var mı?
-+ yorum satırları gereksiz yere uzun tutulmuş mu?
++ gereksiz yorum satırı var mı? _(gereksiz yorum satırlarından kaçınmak gerekiyor)_
+  + kodun açık ve net olduğu yerlerde _(selfexplanatory)_ açıklama satırları kullanılmış mı? _(gereksiz yorum satırlarından kaçınmak gerekiyor)_
++ güncellenmesi _(update)_ gereken yorum satırları füncellenmemiş mi?
++ yorum satırları gereksiz yere uzun tutulmuş mu? 
 + değişken bildirimleri için açıklama satırı var mı? _(kötü isimlendirme)_
 + _debug_ amaçlı _comment out_ yapılmış kodlar kaynak dosyada bırakılmış mı?
        
 ## İsimlendirme (Naming)
-+ isimler anlaşılır mı?
++ anlaşılmaz isimler kullanılmış mı?
 + Türkçe isim kullanılmış mı?
-+ isimlendirmede tutarlı bir konvensiyon kullanılmış mı?
++ isimlendirmede tutarlı bir konvensiyon kullanılmamış mı?
 + birbirine çok yakın isimler seçilmiş mi? _(x1, x2, x3 gibi)_
 + görsel olarak _0_ ile karıştırılma riski olan _'o'_ karakteri kullanılmış mı?
 + fonksiyon isimleri iyi seçilmiş mi?
@@ -48,21 +48,21 @@
 + standart kütüphane tarafından rezerve edilmiş isimler kullanılmış mı?
 
 ## Sabitler (constants)
-+ _nullptr_ yerine _NULL_ makrosu kullanılmış mı?
-+ _nullptr_ yerine tam sayı sabiti olarak _'0'_ kullanılmış mı?
++ _nullptr_ yerine _NULL_ makrosu kullanılmış mı? _(NULL makrosu kullanılmamalı)_
++ _nullptr_ yerine tam sayı sabiti olarak _0_ kullanılmış mı? _(nullptr sabiti kullanılmalı)_
 + tam sayı ve gerçek sayı sabitlerinin türü doğru seçilmiş mi?
-+ isimlendirilmesi gereken sabitler isimsiz olarak kullanılmış mı?
-+ büyük tam sayı sabitlerinin yazımında basamak ayıracı _(digit separator)_ kullanılmış mı?
++ isimlendirilmesi gereken sabitler isimsiz olarak kullanılmış mı? _(özel anlama sahip sabitler isimlendirilmeli)_
++ büyük tam sayı sabitlerinin yazımında basamak ayıracı _(digit separator)_ kullanılmamış mı? _(kodun kolay okunması için basamak ayraçları kullanılmalı)_ 
     
 ## Numaralandırmalar (enums)
-+ kapsamlı enum türü _(enum class)_ yerine kapsamsız enum türü kullanılmış mı?
-+ isimlendirilmemiş _enum_ türü kullanılmış mı?
-+ gereksiz biçimde numaralandırma sabitlerinin değerleri belirlenmiş mi?
-+ gereksiz biçimde baz tür _(underlying type)_ belirlenmiş mi?
-+ numaralandırma sabitleri tamamı büyük harf _(all caps)_ isimlendirilmiş mi?
++ kapsamlı enum türü _(enum class)_ yerine kapsamsız enum türü kullanılmış mı? _(zorunlu durumlar dışında kapsamsız enum türlerinin kullanımından kaçınılmalı)_
++ isimlendirilmemiş bir _enum_ türü kullanılmış mı? _(kodun kolay okunması için enum türleri isimlendirilmeli)_
++ gereksiz biçimde numaralandırma sabitlerinin değerleri belirlenmiş mi? _(gerekmiyorsa tüm numara sabitleri varsayılan değerlere sahip olmalı)_
++ gereksiz biçimde baz tür _(underlying type)_ belirlenmiş mi? _(gerekmedikça baz tür belirtilmemeli)_
++ numaralandırma sabitleri tamamı büyük harf _(all caps)_ isimlendirilmiş mi? _(all caps isimlerden kaçınılmalı)_
 
 ## İfadeler ve Operatörler (Expressions & Operators)
-+ karmaşık ve fazla sayıda operatör içeren ifadelerde öncelik parantez(ler)i kullanılmış mı?
++ karmaşık ve fazla sayıda operatör içeren ifadelerde öncelik parantez(ler)i kullanılmamış mı? _(uzun ve karmaşık ifadelerin okunmasını kolaylatırmak ve kodlama hatalarından kaçınmak için öncelik parantezleri kullanılmalı)_
 
 ## Kontrol Deyimleri (Control Statements)
 + _STL_ algoritmaları yerine ham döngü deyimleri _(raw loops)_ kullanılmış mı? 
