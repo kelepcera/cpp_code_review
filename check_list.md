@@ -37,9 +37,9 @@
 + _debug_ amaçlı _comment out_ yapılmış kodlar kaynak dosyada bırakılmış mı?
        
 ## İsimlendirme (Naming)
-+ anlaşılmaz isimler kullanılmış mı?
++ anlaşılmaz isimler kullanılmış mı? _(isimler anlaşılır ve betimleyici olmalı)_
 + Türkçe isim kullanılmış mı? _(isimler Türkçe olmamalı)_
-+ isimlendirmede tutarlı bir konvensiyon kullanılmamış mı?
++ isimlendirmede tutarlı biçimde bir konvensiyon kullanılmamış mı? 
 + birbirine çok yakın isimler seçilmiş mi? _(x1, x2, x3 gibi)_
 + görsel olarak _0_ ile karıştırılma riski olan _'o'_ karakteri kullanılmış mı?
 + fonksiyon isimleri fonksiyonun yaptığı işe betimlemiyor mu?
@@ -58,7 +58,7 @@
 + kapsamlı enum türü _(enum class)_ yerine kapsamsız enum türü kullanılmış mı? _(zorunlu durumlar dışında kapsamsız enum türlerinin kullanımından kaçınılmalı)_
 + isimlendirilmemiş bir _enum_ türü kullanılmış mı? _(kodun kolay okunması için enum türleri isimlendirilmeli)_
 + gereksiz biçimde numaralandırma sabitlerinin değerleri belirlenmiş mi? _(gerekmiyorsa tüm numara sabitleri varsayılan değerlere sahip olmalı)_
-+ gereksiz biçimde baz tür _(underlying type)_ belirlenmiş mi? _(gerekmedikça baz tür belirtilmemeli)_
++ gereksiz biçimde baz tür _(underlying type)_ belirlenmiş mi? _(gerekmedikçe baz tür belirtilmemeli)_
 + numaralandırma sabitleri tamamı büyük harf _(all caps)_ isimlendirilmiş mi? _(all caps isimlerden kaçınılmalı)_
 
 ## İfadeler ve Operatörler (Expressions & Operators)
