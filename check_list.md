@@ -31,19 +31,19 @@
 ## Yorum satırları (Comment Lines)
 + gereksiz yorum satırı var mı? _(gereksiz yorum satırlarından kaçınmak gerekiyor)_
   + kodun açık ve net olduğu yerlerde _(selfexplanatory)_ açıklama satırları kullanılmış mı? _(gereksiz yorum satırlarından kaçınmak gerekiyor)_
-+ güncellenmesi _(update)_ gereken yorum satırları füncellenmemiş mi?
-+ yorum satırları gereksiz yere uzun tutulmuş mu? 
-+ değişken bildirimleri için açıklama satırı var mı? _(kötü isimlendirme)_
++ güncellenmesi _(update)_ gereken yorum satırları güncellenmemiş mi?
++ yorum satırları gereksiz yere uzun tutulmuş mu? _(uzun açıklamalardan kaçınılmalı)_
++ değişken bildirimleri için açıklama satırı var mı? _(değişken bildirimleri için açıklama yapılmış ise muhtemelen kötü isimlendirme söz konusudur)_
 + _debug_ amaçlı _comment out_ yapılmış kodlar kaynak dosyada bırakılmış mı?
        
 ## İsimlendirme (Naming)
 + anlaşılmaz isimler kullanılmış mı?
-+ Türkçe isim kullanılmış mı?
++ Türkçe isim kullanılmış mı? _(isimler Türkçe olmamalı)_
 + isimlendirmede tutarlı bir konvensiyon kullanılmamış mı?
 + birbirine çok yakın isimler seçilmiş mi? _(x1, x2, x3 gibi)_
 + görsel olarak _0_ ile karıştırılma riski olan _'o'_ karakteri kullanılmış mı?
-+ fonksiyon isimleri iyi seçilmiş mi?
-+ tamamı büyük harf olan _(all caps)_ isimler kullanılmış mı?
++ fonksiyon isimleri fonksiyonun yaptığı işe betimlemiyor mu?
++ tamamı büyük harf olan _(all caps)_ isimler kullanılmış mı? _(all caps isimler kullanılmamalı)_ 
 + isimlerde gereksiz ön ekler kullanılmış mı?
 + standart kütüphane tarafından rezerve edilmiş isimler kullanılmış mı?
 
@@ -65,8 +65,8 @@
 + karmaşık ve fazla sayıda operatör içeren ifadelerde öncelik parantez(ler)i kullanılmamış mı? _(uzun ve karmaşık ifadelerin okunmasını kolaylatırmak ve kodlama hatalarından kaçınmak için öncelik parantezleri kullanılmalı)_
 
 ## Kontrol Deyimleri (Control Statements)
-+ _STL_ algoritmaları yerine ham döngü deyimleri _(raw loops)_ kullanılmış mı? 
-+ gereksiz _do while_ döngüsü kullanılmış mı?
++ _STL_ algoritmaları yerine ham döngü deyimleri _(raw loops)_ kullanılmış mı? _(ham döngülerden mümkün olduğunca kaçınılmalı)_
++ gereksiz _do while_ döngüsü kullanılmış mı? _(do while döngü deyimleri kod okumayı zorlaştırıyor ve hata yapma riskini arttırıyor. Gerekli durumların haricinde do while döngülerinden kaçınılmalı)_
 + aralık tabanlı for döngü deyimleri _(range-based for loop)_ yerine geleneksel _for_ döngü deyimi kullanılmış mı?
 + gereksiz _goto_ deyimi kullanılmış mı?
 + _switch_ deyimlerinde gereksiz _default_ case kullanımı var mı?
