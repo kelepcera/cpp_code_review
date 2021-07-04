@@ -103,18 +103,18 @@
 + lambda ifadesinin kullanılması gereken (daha iyi olan) yerlerde global fonksiyon tanımlanmış mı?
   
 ## Kapsam ve Kapsam Sızıntısı (Scope & Scope Leakage)
-+ değişkenler ilk kullanıldıkları yerde _(yere takın)_ tanımlanmış mı?
-+ yerel bir isim global bir ismi maskeliyor mu?
++ değişkenler ilk kullanıldıkları yerde _(yere yakın)_ tanımlanmamış mı? _(değişken isimlerinin kapsamı mümkün olduğunca daraltılmalı)_
++ yerel bir isim global bir ismi maskeliyor mu? 
 + yerel bir isim sınıf kapsamındaki bir ismi maskeliyor mu?
 + değişken isimlerinin kapsamları gereksiz yere geniş tutulmuş mu?
-+ gereken yerlerde kapsam daraltılması için ilk değer vermeli if deyimi _(if with initializer)_ kullanılmış mı?
-+ gereken yerlerde "yapılandırılmış bağlama" _(structured binding)_ kullanılmış mı?
++ gereken yerlerde kapsam daraltılması için ilk değer vermeli if deyimi _(if with initializer)_ kullanılmamış mı?
++ gereken yerlerde "yapılandırılmış bağlama" _(structured binding)_ kullanılmamış mı?
 
 ## Tür Çıkarımı (Type Deduction)
 
 ## Taşıma Semantiği (Move Semantics) 
-+ sınıfın _move member_'ları _delete_ edilmiş mi?
-+ _return_ ifadesinde _std::move_ işlevi çağrılmış mı?
++ sınıfın _move member_'ları _delete_ edilmiş mi? _(move memberler delete edilmemeli)_
++ _return_ ifadesinde _std::move_ işlevi çağrılmış mı? _(copy elision ya da derleyici optimizasyonu devre dışı bırakılmış olabilir)_
 
 ## Kopyalamanın Eliminasyonu (Copy Elision)
 
