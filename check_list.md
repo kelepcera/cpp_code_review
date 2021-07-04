@@ -1,9 +1,9 @@
 ## Başlık Dosyaları (Header Files)
 + gereksiz yere bir başlık dosyası include edilmiş mi? _(gereksiz başlık dosyalarının include edilmesinden kaçınılmalı)_ 
   + ön bildirim _(forward declaration)_ yapmak yerine gereksiz yere başlık dosyası include edilmiş mi?
-+ başlık dosyasında olmaması gereken _using bildirimi_ var mı?
-+ başlık dosyasında olmaması gereken _using namespace direktifi_ var mı?
-+ başlık dosyasında tek tanımlama kuralını _(ODR)_ çiğneyen bir tanımlama var mı?  
++ başlık dosyasında olmaması gereken _using bildirimi_ var mı? _(başlık dosyalarında using bildirimi olmamalı namespace üyesi isimler nitelenerek kullanılmalı)_
++ başlık dosyasında olmaması gereken _using namespace direktifi_ var mı? _(başlık dosyalarında using namespace bildirimi olmamalı namespace üyesi isimler nitelenerek kullanılmalı)_
++ başlık dosyasında tek tanımlama kuralını _(ODR)_ çiğneyen bir tanımlama var mı?  _(tek tanımlama kurallarına uyulmalı)_
 
 ## Önişlemci (Preprocessor)
 + Koşullu derleme komutları _(conditional compiling)_ dışında makrolar kullanılmış mı? _(makro kullanımından kaçınmak gerekiyor)_
@@ -15,10 +15,10 @@
   
 ## Const Doğruluğu (Const Correctness)
 + değişkenler varsayılan biçimde _(default)_ _const_ olarak tanımlanmamış mı? _(default olarak parametre değişkenleri dışındaki değişkenler const olmalı)_
-+ salt okuma _(read-only access)_ amaçlı kullanılacak değişkenler const yapılmış mı?
++ salt okuma _(read-only access)_ amaçlı kullanılacak değişkenler const yapılmamış mı?
   + arama tablosu _(lookup table)_ olarak kullanılan veri yapıları _const_ yapılmamış mı?
   + okuma amaçlı erişim sağlayan referans parametreler _const_ yapılmamış mı?
-  + gösterici değişkenlerin _const_'luğuna dikkat edilmiş mi?
+  + gösterici değişkenlerin tanımında gereken yerlerde _const_ anahtar sözcüğü kullanılmış mı?
     + low level const olması gerekenler low level const yapılmış mı?
     + top level const olması gerekenler top level const yapılmış mı?
   + aralık tabanlı for döngülerinde okuma amaçlı kullanılacak döngü değişkeni olarak kullanılan sol taraf referansları const yapılmamış mı?
@@ -74,20 +74,20 @@
 ## Tür Dönüşümleri ve Tür Dönüştürme Operatörleri
 
 ## İsim Alanları (Namespaces)
-+ global fonksiyonlar _namespace_ içinde mi?
-+ isim alanları isimleri tamamı küçük harf mi _(all lower case)_ ?
++ global fonksiyonlar _namespace_ içinde değil mi? _(isim çakışmalarına karşı önlem almak için global fonksiyonlar bir namespace içinde olmalı)_
++ isim alanları isimleri tamamı küçük harf mi _(all lower case)_ ? 
 
 ## Fonksiyonlar
 + fonksiyon ismi iyi seçilmiş mi?
-+ verilen ismi  yeterince betimleyici mi?
-+ fonksiyonlara birden fazla görev yüklenmiş mi?
-+ küçük birden fazla fonksiyon yerine tek bir (uzun) fonksiyon tanımlanmış mı? 
-+ kullanılmayacak parametreler (gereksiz yere) isimlendirilmiş mi?
-+ fonksiyon parametre sayısı fazla mı?
-+ _variadic_ fonksiyon tanımlanmış mı?
++ verilen isim yeterince betimleyici değil mi?
++ fonksiyonlara birden fazla görev yüklenmiş mi? _(fonksiyonların tek bir görevi olmalı, bir fonksiyona birden fazla görev yüklenmemeli)_
++ küçük birden fazla fonksiyon yerine tek bir (uzun) fonksiyon tanımlanmış mı? _(uzun fonksiyonlardan kaçınılmalı, hata yapma riski artıyor, kod değişikliği yapmak ve test etmek zorlaşıyor)_
++ kullanılmayacak parametreler (gereksiz yere) isimlendirilmiş mi? _(kullanılmayacak [dummy] parametrler isimlendirilmemeli)_
++ fonksiyon parametre sayısı fazla mı? _(parametre sayısı minimize edilmeli, fazla parametreye sahip fonksiyonlara yapılan çağrılarda hata riski artıyor)_
++ _variadic_ fonksiyon tanımlanmış mı? _(variadic fonksiyonlar yerine variadic template(ler) kullanılmalı)_
 + fonksiyon parametreleri için _strong type_ yerine doğrudan tam sayı türleri kullanılmış mı?
-+ uzun kod satırlarına sahip (10 satırdan fazla) _inline_ fonksiyonlar tanımlanmış mı?
-+ geri dönüş değeri adres türlerinden olan fonksiyonlar var mı?
++ uzun kod satırlarına sahip (10 satırdan fazla) _inline_ fonksiyonlar tanımlanmış mı? _(uzun inline fonksiyonlar tipik olarak bir avantaj sağlamıyor)_
++ geri dönüş değeri adres türlerinden olan fonksiyonlar var mı? _(adres döndüren fonksiyonlar hata riskini arttırıyor)_
 
 ## Fonksiyon Yüklemesi (Function Overloading)
 
