@@ -1,8 +1,8 @@
 ## Başlık Dosyaları (Header Files)
 + gereksiz yere bir başlık dosyası include edilmiş mi? _(gereksiz başlık dosyalarının include edilmesinden kaçınılmalı)_ 
   + ön bildirim _(forward declaration)_ yapmak yerine gereksiz yere başlık dosyası include edilmiş mi?
-+ başlık dosyasında olmaması gereken _using bildirimi_ var mı? _(başlık dosyalarında using bildirimi olmamalı namespace üyesi isimler nitelenerek kullanılmalı)_
-+ başlık dosyasında olmaması gereken _using namespace direktifi_ var mı? _(başlık dosyalarında using namespace bildirimi olmamalı namespace üyesi isimler nitelenerek kullanılmalı)_
++ başlık dosyasında olmaması gereken _using bildirimi_ var mı? _(başlık dosyalarında using bildirimi olmamalı namespace üyesi isimler başlık dosyalarında nitelenerek kullanılmalı)_
++ başlık dosyasında olmaması gereken _using namespace direktifi_ var mı? _(başlık dosyalarında using namespace bildirimi olmamalı namespace üyesi isimler başlık dosyalarında nitelenerek kullanılmalı)_
 + başlık dosyasında tek tanımlama kuralını _(ODR)_ çiğneyen bir tanımlama var mı?  _(tek tanımlama kurallarına uyulmalı)_
 
 ## Önişlemci (Preprocessor)
